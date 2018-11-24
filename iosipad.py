@@ -3,7 +3,7 @@ from thrift.transport import THttpClient
 from ttypes import LoginRequest
 import json, requests, LineService
 
-nama = 'Aditmadzs'
+nama = 'sepri pc'
 Headers = {
         'User-Agent': "Line/8.11.0",
         'X-Line-Application': "IOSIPAD\t8.11.0\t"+nama+"\t10.0.0",
