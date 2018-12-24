@@ -3,10 +3,10 @@ from thrift.transport import THttpClient
 from ttypes import LoginRequest
 import json, requests, LineService
 
-nama = 'FunkZher protection Sepri_PC'
+nama = 'FunkZher'
 Headers = {
-        'User-Agent': "Line/2.1.5",
-        'X-Line-Application': "CHROMEOS\t2.1.5\t"+nama+"\t11.2.5",
+        'User-Agent': "Line/1.4.17",
+        'X-Line-Application': "CHROMEOS\t1.4.17\t"+nama+"\t11.2.5",
         "x-lal": "ja-US_US",
     }
 def qrLogin():
